@@ -49,8 +49,8 @@
          {
             "type"                      : "json",
             "authorizeContent"          : "false",
-            "pathRegex"                 : "Smartling-Training-\\/test.json",
-            "translationPathExpression" : "Smartling-Training-${locale}/${originalFile.name}",
+            "pathRegex"                 : "\\/test.json",
+            "translationPathExpression" : "${locale}/${originalFile.name}",
             "smartlingDirectives"       : [
                  "smartling.placeholder_format_custom = (\\$\\{[^\\}]+?\\})|(&[\\w\\d]+?;)",
                  "smartling.variants_enabled = true"
